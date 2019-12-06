@@ -6,9 +6,9 @@ p {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/triangle-mosaic.png") fixed no-repeat;
+    background: url("../images/bg.jpg") fixed no-repeat;
     background-size: 100%;
-    background-color: black;
+    background-color: #dfdfdf;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -41,6 +41,8 @@ blockquote{
     color: #1e392a;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 1.75em;
+    padding-top: 10px;
 }
 
 #jumbheader{
@@ -104,8 +106,8 @@ main {
 
 .col-md-3.cohortMems{
     /* border: 1px solid lightgray; */
-    border-radius:10px;
-    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border-radius:5px;
+    /* box-shadow: 2px 2px 2px 2px whitesmoke; */
     margin: 10px;
     margin-bottom: 25px;
     background: white;
@@ -192,7 +194,7 @@ main {
 .navbar.navbar-light.bg-light.footer{
     margin-top:10px;
     font-size: 1em;
-    background-color: #1e392a!important;
+    background-color: #2f5a42!important;
     color: white;
 }
 
@@ -201,7 +203,8 @@ main {
 }
 
 #demo-date a {
-    color: #3cc47c!important;
+    color: #277a4e!important;
+    font-weight: bold;
 }
 
 button{
