@@ -16,28 +16,28 @@ function cohortMembers(list) {
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
-    if (item.portfolio != null) {
+    if (item.portfolio != "") {
 
       studentContact += `<a href=${item.portfolio} target="_blank">
       <i class="fas fa-globe fa-2x contactIcons"></i>
       </a>`
     }
     //if student doesn't have a github site then don't display the icon
-    if (item.github != null) {
+    if (item.github != "https://github.com/") {
 
       studentContact += `<a href=${item.github} target="_blank">
       <i class="fab fa-github fa-2x contactIcons"></i>
       </a>`
     }
     //if student doesn't have a linkedin site then don't display the icon
-    if (item.linkedIn != null) {
+    if (item.linkedIn != "https://www.linkedin.com/in/") {
 
       studentContact += `<a href=${item.linkedIn} target="_blank">
       <i class="fab fa-linkedin fa-2x contactIcons"></i>
       </a>`
     }
     //if student doesn't have an email then don't display the icon
-    if (item.email != null) {
+    if (item.email != "") {
 
       studentContact += `<a href=mailto:${item.email}>
               <i class="fas fa-envelope fa-2x contactIcons"></i>
@@ -56,7 +56,7 @@ function cohortMembers(list) {
     studentInfo += studentContact
 
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
-    if(item.bio != null){
+    if(item.bio != "<p></p>"){
 
     studentInfo += `
             <center><button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#cohortMember${item.id}">
