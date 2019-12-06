@@ -46,7 +46,7 @@ blockquote{
 }
 
 #jumbheader{
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
+    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
     background-color: #1e392a!important;
     color: lightgray;
     font-family: 'Roboto', sans-serif;
@@ -105,9 +105,7 @@ main {
 }
 
 .col-md-3.cohortMems{
-    /* border: 1px solid lightgray; */
     border-radius:5px;
-    /* box-shadow: 2px 2px 2px 2px whitesmoke; */
     margin: 10px;
     margin-bottom: 25px;
     background: white;
@@ -123,8 +121,7 @@ main {
     margin-top: -55px;
     background: white;
     padding:20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border-radius: 10px;
 
 }
 
