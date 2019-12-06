@@ -66,31 +66,28 @@ function cohortMembers(list) {
         </div>`
     //modal info
     studentInfo +=`
-        <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-           <h5 class="modal-title title-font" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-            <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
-
-            `
-
-    studentInfo += studentContact
-
-
-    studentInfo += `
-
-    ${item.bio}
-    </div>
-    <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-      Back
-              </button></center>
-
+<div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                <div class="row py-3">
+                  <div class="col-md-4"><img src="images/classmates/${item.funImg}" /></div>
+                  <div class="col-md-8 pl-lg-4">
+                    <h2 class="student-name mt-4 mt-md-0 h1">${item.firstName} ${item.lastName}</h2>
+                    <p>${item.bio}</p>
+                  `
+                    studentInfo += studentContact
+                    studentInfo += `
+                  </div>
+                </div><!--end .row -->
+                </div><!--end .container-->
+              </div><!--end .modal-body-->
           </div >
         </div >
       </div > `;
