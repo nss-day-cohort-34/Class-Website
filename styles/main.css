@@ -1,13 +1,16 @@
 p {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
 }
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/background.jpg") fixed no-repeat;
+    background: url("../images/bg.jpg") fixed no-repeat;
     background-size: 100%;
-    background-color: black;
+    background-color: #dfdfdf;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 blockquote{
@@ -19,7 +22,9 @@ blockquote{
 
 .navbar{
     background-color: rgb(55, 55, 56);
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
     background: white !important;
@@ -33,13 +38,19 @@ blockquote{
 
 #cohort22{
     display: inline-block;
-    color: #238193;
+    color: #1e392a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.75em;
+    padding-top: 10px;
 }
 
 #jumbheader{
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
-    background-color: #238193!important;
+    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
+    background-color: #1e392a!important;
     color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
 
 }
 .header-text{
@@ -48,7 +59,8 @@ blockquote{
     font-weight: bold;
     height: 50px;
     color: white;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .title-font {
@@ -70,6 +82,10 @@ blockquote{
     margin-top: -80px;
    }
 
+.container h1 {
+    font-weight: bold;
+    }
+
 main {
     margin-bottom: 20px;
     margin-top: -30px;
@@ -89,9 +105,7 @@ main {
 }
 
 .col-md-3.cohortMems{
-    border: 1px solid lightgray;
-    border-radius:10px;
-    box-shadow: 2px 2px 2px lightgray;
+    border-radius:5px;
     margin: 10px;
     margin-bottom: 25px;
     background: white;
@@ -107,7 +121,8 @@ main {
     margin-top: -55px;
     background: white;
     padding:20px;
-    border-radius: 20px;
+    border-radius: 10px;
+
 }
 
 .techs{
@@ -137,6 +152,7 @@ main {
 
 .modal-body{
     display: block;
+    padding: 0 15px;
   }
 
   .studentContact{
@@ -148,20 +164,22 @@ main {
   }
 
   .contactIcons{
-      color: #238193;
+      color: #1e392a;
   }
   .contactIcons:hover{
       transform: scale(1.2);
   }
 
   .modal-header{
-    background-color: lightgray!important;
-    color: #238193;
+      border: none;
+      padding-bottom: 0;
+      background-color: whitesmoke;
+      padding: 5px 10px;
   }
 
   .modal-body img{
-    width: 50%;
-    height: 50%;
+    width: 300px;
+    max-width: 100%;
     box-shadow: 3px 3px 5px #cacaca;
     border-radius: 10px;
   }
@@ -173,7 +191,7 @@ main {
 .navbar.navbar-light.bg-light.footer{
     margin-top:10px;
     font-size: 1em;
-    background-color: #238193!important;
+    background-color: #2f5a42!important;
     color: white;
 }
 
@@ -182,20 +200,21 @@ main {
 }
 
 #demo-date a {
-    color: #238193!important;
+    color: #277a4e!important;
+    font-weight: bold;
 }
 
 button{
     cursor: pointer;
 }
 .btn-outline-primary{
-    color: #238193!important;
-    border-color: #238193!important;
+    color: #1e392a!important;
+    border-color: #1e392a!important;
 }
 
 .btn-outline-primary:hover{
     color: white!important;
-    background-color: #238193!important;
+    background-color: #1e392a!important;
 }
 
 /* adjusts size of contact icons depending on size of card */
@@ -208,7 +227,7 @@ button{
 @media (min-width: 768px) and (max-width: 991px){
     .fa-3x{
         font-size: 2em!important;
-      }    
+      }
 }
 
 
