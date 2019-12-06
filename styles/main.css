@@ -45,14 +45,18 @@ blockquote{
     padding-top: 10px;
 }
 
-#jumbheader{
-    /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
+.jumbheader{
     background-color: #1e392a!important;
     color: lightgray;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 
 }
+
+#dev-section {
+    height: 1em;
+}
+
 .header-text{
     margin: 0 auto;
     padding-top: 10px;
@@ -66,6 +70,7 @@ blockquote{
 .title-font {
     text-align: center;
     vertical-align: middle;
+    padding: 10px;
 }
 
 .logo{
@@ -115,6 +120,17 @@ main {
     border: none;
     border-radius: none;
     box-shadow: none;
+    transition: transform .2s;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tech-name:link,
+.tech-name:active,
+.tech-name:visited,
+.tech-name:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .technos, .words{
@@ -236,6 +252,9 @@ button{
     /* body {
         background: url("../assets/images/bg.jpg") repeat;
     } */
+    .subtitle {
+        display: none;
+    }
     .jumbotron.jumbotron-fluid img{
         background: white;
         margin-top:30px;
@@ -246,10 +265,6 @@ button{
        .header-text{
         margin: 0 auto;
         height: 30px;
-       }
-       .header-text h2{
-        font-size: 1.5em;
-        margin-top: -10px;
        }
        .modal-body{
         display: block;
