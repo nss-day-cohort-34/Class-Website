@@ -40,7 +40,7 @@
             "email": "bbrady91@gmail.com",
             "proImg": "BobbyBrady.jpg",
             "funImg": "BobbyBrady_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 4,
@@ -138,7 +138,7 @@
             "email": "haroonsiqbal@gmail.com",
             "proImg": "HaroonIqbal.jpg",
             "funImg": "HaroonIqbal_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 11,
@@ -166,7 +166,7 @@
             "email": "snyderjosephd@yahoo.com",
             "proImg": "JoeSnyder.jpg",
             "funImg": "JoeSnyder_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 13,
@@ -264,7 +264,7 @@
             "email": "noahbartfield@gmail.com",
             "proImg": "NoahBartfield.jpg",
             "funImg": "NoahBartfield_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 20,
@@ -292,7 +292,7 @@
             "email": "wfw40869@gmail.com",
             "proImg": "WilliamWilkinson.jpg",
             "funImg": "WilliamWilkinson_Fun.jpg",
-            "isHired": false
+            "isHired": true
         }
 
     ]

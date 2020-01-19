@@ -12,7 +12,17 @@ $.ajax({
   });
 
 function cohortMembers(list) {
-  let data = list.cohort.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1);
+     
+  // Sort cohort members alphabetically by last name
+  let data = list.cohort.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1)
+  
+  // Create a separate array for people who are not yet hired and then those that are hired
+  const notHiredYet = data.filter(a => !a.isHired)
+  const hired = data.filter(a => a.isHired)
+  
+  // Join the two arrays together
+  data = notHiredYet.concat(hired)
+  
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
@@ -45,10 +55,19 @@ function cohortMembers(list) {
     }
     studentContact += `</div>`
 
+    function isHiredStamp (bool) {
+      if (bool === true) {
+        return `<img class="hiredStamp" src="images/HiredStamp.png">`
+      } else {
+        return ``
+      }
+    }
     let studentInfo = `<div class="col-md-3 cohortMems">
-          <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+          <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;"> ${isHiredStamp(item.isHired)}
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
+            
+            
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
       studentInfo += `<p class="card-text">${item.reelThemIn}</p>`
