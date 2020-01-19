@@ -160,6 +160,12 @@ main {
     border-top-right-radius: 10px;
   }
 
+.hiredStamp {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
 .col,
 [class*="col-"] {
     padding-right: 0;
@@ -215,7 +221,7 @@ main {
     text-align: center;
 }
 
-#demo-date a {
+.demo-date-link {
     color: #277a4e!important;
     font-weight: bold;
 }
