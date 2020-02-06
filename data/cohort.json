@@ -12,7 +12,7 @@
             "email": "allison.tpttn@gmail.com",
             "proImg": "AllisonPatton.jpg",
             "funImg": "AllisonPatton_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 2,
@@ -54,7 +54,7 @@
             "portfolio": "",
             "proImg": "BrantleyJones.jpg",
             "funImg": "BrantleyJones_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 5,
@@ -68,7 +68,7 @@
             "email": "wilsonedit@gmail.com",
             "proImg": "BrianWilson.jpg",
             "funImg": "BrianWilson_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 6,
@@ -96,7 +96,7 @@
             "email": "crutchc@yahoo.com",
             "proImg": "CurtisCrutchfield.jpg",
             "funImg": "CurtisCrutchfield_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 8,
@@ -152,7 +152,7 @@
             "email": "jacquelynkmccray@gmail.com",
             "proImg": "JacquelynMcCray.jpg",
             "funImg": "JacquelynMcCray_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 12,
@@ -278,7 +278,7 @@
             "email": "sarah.k.fleming@gmail.com",
             "proImg": "SarahFleming.jpg",
             "funImg": "SarahFleming_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 21,
