@@ -26,7 +26,7 @@
             "email": "bennfos@gmail.com",
             "proImg": "BennettFoster.jpg",
             "funImg": "BennettFoster_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 3,
@@ -82,7 +82,7 @@
             "email": "carl@ecbarringer.com",
             "proImg": "CarlBarringer.jpg",
             "funImg": "CarlBarringer_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 7,
@@ -110,7 +110,7 @@
             "email": "",
             "proImg": "EllieAsh.jpg",
             "funImg": "EllieAsh_Fun.jpg",
-            "isHired": false
+            "isHired": true
         },
         {
             "id": 9,
